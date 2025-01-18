@@ -24,7 +24,7 @@ export default function TextEditor() {
 
 
   useEffect(()=>{
-    const s=io("https://sync-editor-dqry.vercel.app/");
+    const s=io("https://sync-editor-be.onrender.com");
     setSocket(s);
 
     return ()=>{
